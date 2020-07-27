@@ -46,6 +46,7 @@
 }
 
 #what-we-do{
+  padding: 5% 0;
   text-align: center;
 }
 
@@ -71,9 +72,11 @@
 .hidden{
   font-size: smaller;
   display: none;
+  padding: 5%;
 }
 
-.hidden h1{
+.hidden h3{
+  font-size: medium;
   font-weight: bold;
 }
 
@@ -86,7 +89,21 @@
   background-size: cover;
 }
 
+input{
+  width: 300px;
+  color: antiquewhite;
+  background-color: transparent;
+}
+
+textarea{
+  width: 500px;
+  height: 250px;
+  color: antiquewhite;
+  background-color: transparent;
+}
+
 footer{
+  padding: 30px 0;
   text-align: center;
 }
 
