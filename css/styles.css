@@ -1,0 +1,19 @@
+*{
+  font-family: 'Merriweather'; 
+}
+
+#welcome-section {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 100%;
+
+  padding-top: 15%;
+  color: white;
+  text-align: center;
+  line-height: normal;
+  justify-items: center;
+}
+
