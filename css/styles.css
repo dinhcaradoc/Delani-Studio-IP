@@ -35,10 +35,11 @@
 }
 
 #services {
+  padding: 5%;
   text-align: center;
+  vertical-align: middle;
   color: white;
   font-size: medium;
-  padding: 5%;
   background-image: url(../assets/backgrounds/s_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
