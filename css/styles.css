@@ -7,13 +7,53 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-width: 100%;
-  min-height: 100%;
 
-  padding-top: 15%;
+  padding-top: 8%;
   color: white;
   text-align: center;
   line-height: normal;
   justify-items: center;
 }
 
+#welcome-section h1{
+  padding: 5px;
+}
+
+#welcome-text{
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+#welcome-section img {
+  margin: 2%;
+}
+
+#about-us{
+  text-align: center;
+  font-size: medium;
+  padding: 5%;
+}
+
+#services {
+  text-align: center;
+  font-size: medium;
+  padding: 5%;
+}
+
+#what-we-do{
+  text-align: center;
+}
+
+#portfolio{
+  text-align: center;
+}
+
+.portfolios{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.portfolios img{
+  width: 100px;
+  height: auto;
+}
