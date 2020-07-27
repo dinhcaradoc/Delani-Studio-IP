@@ -36,8 +36,12 @@
 
 #services {
   text-align: center;
+  color: white;
   font-size: medium;
   padding: 5%;
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #what-we-do{
@@ -50,10 +54,36 @@
 
 .portfolios{
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-content: space-around;
 }
 
 .portfolios img{
-  width: 100px;
+  width: 250px;
   height: auto;
+  margin: 2%;
+}
+
+.icon-hidden{
+  display: none;
+}
+
+#contact-us{
+  text-align: center;
+  color: white;
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  text-align: center;
+}
+
+footer p{
+  font-size: smaller;
 }
