@@ -68,12 +68,12 @@
   margin: 2%;
 }
 
-.icon-hidden{
+.hidden{
   font-size: smaller;
   display: none;
 }
 
-.icon-hidden h1{
+.hidden h1{
   font-weight: bold;
 }
 
