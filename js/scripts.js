@@ -19,3 +19,7 @@ $(document).ready(function(){
   })
 })
 
+$("#client-message").click(function(){
+  var name = document.getElementById("client-name").value;
+  alert('Hey there ' + name + ". Thank you for sharing your details with us. We have received your message and will keep in touch.");
+});
